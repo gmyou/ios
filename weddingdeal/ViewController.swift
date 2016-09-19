@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         let url = URL (string: "http://wweddingclub.co.kr/")!;
         let requestObj = URLRequest(url: url as URL);
         webView.loadRequest(requestObj);
+        
+        print(webView.stringByEvaluatingJavaScript(from: "document.title")!)
+        
 
     }
 
