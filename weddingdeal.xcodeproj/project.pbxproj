@@ -14,6 +14,7 @@
 		A14EEA041D8F98BF00113289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14EEA021D8F98BF00113289 /* LaunchScreen.storyboard */; };
 		A14EEA0F1D8F98BF00113289 /* weddingdealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EEA0E1D8F98BF00113289 /* weddingdealTests.swift */; };
 		A14EEA1A1D8F98C000113289 /* weddingdealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EEA191D8F98C000113289 /* weddingdealUITests.swift */; };
+		A16F87401DC86AAE0026CC62 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F873F1DC86AAE0026CC62 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A14EEA151D8F98C000113289 /* weddingdealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weddingdealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14EEA191D8F98C000113289 /* weddingdealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weddingdealUITests.swift; sourceTree = "<group>"; };
 		A14EEA1B1D8F98C000113289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16F873F1DC86AAE0026CC62 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A14EEA001D8F98BF00113289 /* Assets.xcassets */,
 				A14EEA021D8F98BF00113289 /* LaunchScreen.storyboard */,
 				A14EEA051D8F98BF00113289 /* Info.plist */,
+				A16F873F1DC86AAE0026CC62 /* Reachability.swift */,
 			);
 			path = weddingdeal;
 			sourceTree = "<group>";
@@ -188,12 +191,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "You Gun-Myoung";
 				TargetAttributes = {
 					A14EE9F51D8F98BF00113289 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NFTL9635HP;
+						DevelopmentTeam = QPSKVY685H;
 						ProvisioningStyle = Automatic;
 					};
 					A14EEA091D8F98BF00113289 = {
@@ -262,6 +265,7 @@
 			files = (
 				A14EE9FC1D8F98BF00113289 /* ViewController.swift in Sources */,
 				A14EE9FA1D8F98BF00113289 /* AppDelegate.swift in Sources */,
+				A16F87401DC86AAE0026CC62 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +338,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,8 +363,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -383,6 +388,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,7 +408,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos10.0;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -412,13 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFTL9635HP;
+				DEVELOPMENT_TEAM = QPSKVY685H;
 				INFOPLIST_FILE = weddingdeal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wedding-n.com.weddingdeal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos10.0;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -428,13 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFTL9635HP;
+				DEVELOPMENT_TEAM = QPSKVY685H;
 				INFOPLIST_FILE = weddingdeal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wedding-n.com.weddingdeal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos10.0;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
